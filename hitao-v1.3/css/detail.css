@@ -1,0 +1,27 @@
+
+#detailcontent {
+    width:1420px;
+    height: 613px;
+    background: #fff;
+    
+}
+
+.title {
+    width:999px;
+    height:66px;
+    line-height: 66px;
+}
+.title a:hover{
+    color:#D02C7D;
+}
+
+.contain-content {
+   
+    width: 999px;
+    margin:0 auto;
+}
+
+.goodsintro {
+    width: 999px;
+    height: 546px;
+}
