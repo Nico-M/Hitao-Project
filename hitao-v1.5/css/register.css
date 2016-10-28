@@ -87,9 +87,12 @@
     border: 1px solid #A9A9A9;
     width: 344px;
     height: 48px;
-    margin-bottom:28px; 
+/*    margin-bottom:28px; */
     position:relative;
     
+}
+.Validform_checktip{
+    height:28px;
 }
 .reginfo input{
     width: 262px;
@@ -101,7 +104,7 @@
     
     
 }
-.reginfo form span{
+.reginfo form .grey{
     display: block;
     float:left;
     width:80px;
@@ -132,7 +135,7 @@
     position:relative;
     left:80px;
 }
-.reginfo form i{
+.reginfo form a.msg{
     font-style: normal;
     color:#E10482;
     position: absolute;
@@ -152,4 +155,31 @@
      margin-top:30px;
     display: none;
    
+}
+
+#idcode {
+    position: absolute;
+    right:0;
+    background: none;
+    overflow: hidden;
+}
+
+.demoform {
+    display: none;
+}
+
+.agree .check {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top:2px;
+}
+
+#btn_reg {
+    background: #E52395;
+    
+}
+
+.demoform1 {
+    display: block;
 }

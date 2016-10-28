@@ -331,6 +331,16 @@
 
 .xiangxi {
     background: #fff;
+    overflow: hidden;
+   margin-left:-16px;
+    
+}
+.xiangxi a:hover{
+    
+}
+.xiangxi ul {
+   
+   
 }
 
 .xiangxi img {
