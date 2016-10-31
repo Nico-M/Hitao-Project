@@ -1,24 +1,22 @@
-
 #detailcontent {
-    width:1420px;
+    width: 1420px;
     height: 613px;
     background: #fff;
-    
 }
 
 .title {
-    width:999px;
-    height:66px;
+    width: 999px;
+    height: 66px;
     line-height: 66px;
 }
-.title a:hover{
-    color:#D02C7D;
+
+.title a:hover {
+    color: #D02C7D;
 }
 
 .contain-content {
-   
     width: 999px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .goodsintro {
@@ -27,48 +25,48 @@
 }
 
 .topL img {
-    width:54px;
+    width: 54px;
     vertical-align: top;
 }
 
-.topL span{
+.topL span {
     display: inline-block;
-    height:54px;
+    height: 54px;
     text-align: center;
     line-height: 54px;
 }
 
 .topL {
-    width:400px;
-    float:left;
+    width: 400px;
+    float: left;
 }
 
 .topR {
-    width:260px;
-    float:right;
-    height:54px;
+    width: 260px;
+    float: right;
+    height: 54px;
     border-radius: 8px 0 0 8px;
     background: #F5F5F5;
     line-height: 54px;
     text-align: center;
 }
-.topR div i{
+
+.topR div i {
     font-size: 24px;
     padding-right: 4px;
     vertical-align: middle;
 }
-.topR span{
+
+.topR span {
     font-size: 22px;
-    
 }
 
 .discrib {
     width: 999px;
-    height:482px;
-    padding-top:19px;
-    
-    padding-left:4px;
-    margin:0 auto;
+    height: 482px;
+    padding-top: 19px;
+    padding-left: 4px;
+    margin: 0 auto;
 }
 
 .introtop {
@@ -76,23 +74,25 @@
 }
 
 .dscbImg {
-    width:593px;
-    float:left;
+    width: 593px;
+    float: left;
     position: relative;
 }
-.dscbImg span{
+
+.dscbImg span {
     width: 120px;
     height: 30px;
     display: block;
     position: absolute;
-    left:450px;
-    top:300px;
+    left: 450px;
+    top: 300px;
     background: #fefefe;
-    border-radius:16px;
+    border-radius: 16px;
     text-align: center;
     line-height: 30px;
 }
-.dscbImg .lover{
+
+.dscbImg .lover {
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -101,20 +101,33 @@
     background: url(../images/goodDetail/product_detail_sprite.png) no-repeat;
     background-position: -118px -52px;
 }
-.dscbImg span:hover .lover{
-        background-position: -138px -52px;
 
+.dscbImg span:hover .lover {
+    background-position: -138px -52px;
 }
-.shareto .wx{    color: #90bd51;font-size: 20px;}
-.shareto .sina{    color: #e96675;font-size: 20px;}
-.shareto .qq{color: #f4b43d;fz 20px;}
+
+.shareto .wx {
+    color: #90bd51;
+    font-size: 20px;
+}
+
+.shareto .sina {
+    color: #e96675;
+    font-size: 20px;
+}
+
+.shareto .qq {
+    color: #f4b43d;
+    font-size: 20px;
+}
 
 .dscb {
     width: 389px;
-    float:right;
-    padding-top:23px;
+    float: right;
+    padding-top: 23px;
 }
-.dscb p{
+
+.dscb p {
     line-height: 23px;
     font-size: 16px;
     padding-bottom: 30px;
@@ -124,29 +137,30 @@
     color: #E10482;
     font-size: 20px;
     font-style: normal;
-    
-    
 }
-.qian{
+
+.qian {
     font-size: 40px;
     color: #E10482;
-   margin-right:220px;
-
+    margin-right: 220px;
 }
 
-.curprice{
+.curprice {
     height: 28px;
     line-height: 28px;
 }
-.curprice span{
-    color:#AFAFAF;
-    margin-right:50px;
+
+.curprice span {
+    color: #AFAFAF;
+    margin-right: 50px;
 }
-.curprice span em{
-    font-style:normal;
+
+.curprice span em {
+    font-style: normal;
     text-decoration: line-through;
 }
-.curprice span i{
+
+.curprice span i {
     display: inline-block;
     background: #fda430;
     border-radius: 5px;
@@ -161,78 +175,82 @@
 }
 
 .youhui {
-    
-    
-    padding-top:8px;
-    
+    padding-top: 8px;
 }
-.prefer .youhui span{
+
+.prefer .youhui span {
     display: inline-block;
     width: 48px;
     height: 20px;
-    border-radius:4px;
+    border-radius: 4px;
     background: #E10482;
     text-align: center;
-    line-height: 20px;color:aliceblue;
-    margin-right:16px;
+    line-height: 20px;
+    color: aliceblue;
+    margin-right: 16px;
 }
 
 .source {
-    height:50px;
-    border-bottom:2px solid #000;
+    height: 50px;
+    border-bottom: 2px solid #000;
     line-height: 50px;
 }
 
 .count {
-    margin-top:20px;
+    margin-top: 20px;
     width: 183px;
     height: 34px;
     line-height: 34px;
     margin-bottom: 20px;
 }
-.count .cnt{
+
+.count .cnt {
     width: 109px;
     height: 34px;
     border: 1px solid #DBDBDB;
     border-radius: 2px;
-    float:right;
+    float: right;
 }
-.cnt span{
+
+.cnt span {
     float: left;
-    width:28px;height:34px;
+    width: 28px;
+    height: 34px;
     line-height: 34px;
     text-align: center;
 }
-.cnt input{
+
+.cnt input {
     float: left;
     text-align: center;
     line-height: 34px;
     width: 50px;
     height: 34px;
-    border-right:1px solid #dbdbdb;
-    border-left:1px solid #dbdbdb;
-    
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
 }
 
 .shop {
     width: 172px;
     height: 50px;
-   
     background: #000;
     border-radius: 26px;
-    float:left;
-    text-align:center;
+    float: left;
+    text-align: center;
     line-height: 50px;
     font-size: 16px;
-    margin-right:20px;
+    margin-right: 20px;
 }
-.shop a{
-     color:#fff;
+
+.shop a {
+    color: #fff;
 }
-.dscb .last{
-    background:#E10482; 
+
+.dscb .last {
+    background: #E10482;
 }
-.last i{
+
+.last i {
     display: inline-block;
     font-size: 22px;
     margin-right: 5px;
@@ -247,114 +265,108 @@
 
 .intro {
     width: 999px;
-    margin:0 auto;
-    padding-top:32px;
+    margin: 0 auto;
+    padding-top: 32px;
     overflow: hidden;
 }
 
 .introL {
     width: 249px;
-    float:left;
+    float: left;
 }
 
 .introR {
     width: 722px;
-    float:right;
+    float: right;
 }
-
 
 .recpro img {
     display: left;
-   width: 64px; 
+    width: 64px;
 }
 
 .hotrec h4 {
-  height:24px; 
+    height: 24px;
     font-size: 16px;
-    border-bottom:2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
-.hotrec {
-    
-}
-
-
+.hotrec {}
 
 .recpro {
     display: block;
-    padding-left:23px;
-    padding-right:23px;
-    background: #fff;    
+    padding-left: 23px;
+    padding-right: 23px;
+    background: #fff;
 }
 
 .miaoshu {
-    width:112px;
-    float:right;
+    width: 112px;
+    float: right;
 }
-.miaoshu h5{
-    padding-bottom:14px;
+
+.miaoshu h5 {
+    padding-bottom: 14px;
 }
-.miaoshu span{
-    color:#E116A4;
+
+.miaoshu span {
+    color: #E116A4;
     font-size: 10px;
 }
 
 .contentpro {
-    padding-top:23px;
-    padding-bottom:23px;
-     border-bottom:1px solid #ddd;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #ddd;
 }
 
 .gusess {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .introL .spec {
-    border:none;
+    border: none;
 }
 
 .contenttitle {
-    height:30px;
+    height: 30px;
     border-bottom: 2px solid #000;
 }
-.contenttitle a{
-    float:left;
-    display:block;
-    height:28px;
-    margin-left:46px;
-    
+
+.contenttitle a {
+    float: left;
+    display: block;
+    height: 28px;
+    margin-left: 46px;
 }
-.contenttitle a.select{
-    color:#E1007D;
-    border-bottom:2px solid #E1007D;
+
+.contenttitle a.select {
+    color: #E1007D;
+    border-bottom: 2px solid #E1007D;
 }
 
 .xiangxi {
     background: #fff;
     overflow: hidden;
-   margin-left:-16px;
-    
-}
-.xiangxi a:hover{
-    
-}
-.xiangxi ul {
-   
-   
+    margin-left: -16px;
 }
 
+.xiangxi a:hover {}
+
+.xiangxi ul {}
+
 .xiangxi img {
-    margin-left:30px;
+    margin-left: 30px;
 }
 
 .pro_param {
-        padding: 20px;
-    padding-bottom:0;
+    padding: 20px;
+    padding-bottom: 0;
 }
 
 .tit_pro_param {
     height: 26px;
-   font-size: 24px;
+    font-size: 24px;
     margin: 24px 0;
     background: url(../images/goodDetail/product_detail_sprite.png) no-repeat 10px -168px;
 }
@@ -363,12 +375,12 @@
     background-position: 10px -194px;
 }
 
-
 .pro_param_list {
     position: relative;
     padding: 10px;
     color: #333;
 }
+
 .pro_param_list dt {
     width: 240px;
     height: 240px;
@@ -377,12 +389,13 @@
     left: 365px;
     top: 5px;
 }
+
 .mod_main img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    width:240px;
-    height:240px;
+    width: 240px;
+    height: 240px;
 }
 
 .pro_param_list dd .brand {
@@ -395,16 +408,14 @@
     font-size: 14px;
 }
 
-
-    .pro_param_list dd {
+.pro_param_list dd {
     position: relative;
     padding: 4px 0 4px 100px;
     width: 250px;
 }
 
-
 .imagescontent img {
     display: block;
-   margin-left:-20px;
+    margin-left: -20px;
     width: 732px;
 }
